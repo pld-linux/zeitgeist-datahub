@@ -1,7 +1,7 @@
 Summary:	The datahub provides passive plugins which insert events into Zeitgeist
 Name:		zeitgeist-datahub
 Version:	0.7.0
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Applications
 Source0:	http://launchpad.net/zeitgeist-datahub/0.7/%{version}/+download/%{name}-%{version}.tar.gz
