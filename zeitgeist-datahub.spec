@@ -1,12 +1,12 @@
 Summary:	The datahub provides passive plugins which insert events into Zeitgeist
 Summary(pl.UTF-8):	Datahub udostępnia pasywne wtyczki umieszczające zdarzenia w Zeitgeiście
 Name:		zeitgeist-datahub
-Version:	0.8.2
+Version:	0.9.5
 Release:	1
 License:	LGPL v3+
 Group:		Applications
-Source0:	http://launchpad.net/zeitgeist-datahub/0.8/%{version}/+download/%{name}-%{version}.tar.gz
-# Source0-md5:	fc410c213d49a11c9524fbfa9d41ddad
+Source0:	http://launchpad.net/zeitgeist-datahub/0.9/%{version}/+download/%{name}-%{version}.tar.gz
+# Source0-md5:	b2b76b82b67363c45e5fe4f39a172775
 URL:		https://launchpad.net/zeitgeist-datahub
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1:1.11
