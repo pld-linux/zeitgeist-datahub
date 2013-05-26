@@ -15,12 +15,16 @@ BuildRequires:	gettext-devel
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	glib2-devel >= 1:2.26.0
 BuildRequires:	gtk+2-devel >= 2:2.16.0
-BuildRequires:	libzeitgeist-devel >= 0.3.3
+BuildRequires:	json-glib-devel >= 0.14.0
+BuildRequires:	libzeitgeist-devel >= 0.3.18
 BuildRequires:	pkgconfig
-BuildRequires:	vala >= 0.11.2
+BuildRequires:	telepathy-glib-devel >= 0.18.0
+BuildRequires:	vala >= 2:0.16.0
 Requires:	glib2 >= 1:2.26.0
 Requires:	gtk+2 >= 2:2.16.0
-Requires:	libzeitgeist >= 0.3.3
+Requires:	json-glib >= 0.14.0
+Requires:	libzeitgeist >= 0.3.18
+Requires:	telepathy-glib >= 0.18.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
